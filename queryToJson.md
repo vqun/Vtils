@@ -48,4 +48,6 @@ function queryToJson(query){
 
 以上实现省略了一些细节，比如，encode，key重复等。这个需要具体自行去解决，就不给出了。
 
-**转载请注明：[https://github.com/vqun/Vtils/blob/master/queryToJson.md](https://github.com/vqun/Vtils/blob/master/queryToJson.md)**
+另外，还有一个jsonToQuery，因为比较简单，就不谈了。
+
+**转载请注明：[https://github.com/vqun/Vtils/blob/master/queryToJson.md](https://github.com/vqun/Vtils/blob/master/queryToJson.md "queryToJson")**
