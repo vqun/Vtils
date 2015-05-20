@@ -15,7 +15,7 @@ OK，知道了格式及转换格式后，其实，也很简单，就是对query�
 以下给出split的实现：
 ```javascript
 function queryToJson(query) {
-  query = "+query; // conver to string
+  query = ""+query; // conver to string
   var obj = {}, pairs = query.split('&'), name, cname, value, cur, step;
   step = obj;
   for (var k = pairs.length; k; ) {
