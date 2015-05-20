@@ -34,4 +34,4 @@ function isEqual(o1, o2) {
 ```
 因为遍历深度很深，复杂度O很大，以及使用了迭代，效率较低，建议高深度的酌情使用。目前，还没想到合适的算法，有想法的，不妨推荐，谢谢！
 
-**转载请注明：`https://github.com/vqun/Vtils/blob/master/isEqual.md`**
+**转载请注明：`[https://github.com/vqun/Vtils/blob/master/isEqual.md](https://github.com/vqun/Vtils/blob/master/isEqual.md "isEqual")`**
