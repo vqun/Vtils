@@ -36,10 +36,10 @@ function queryToJson(query) {
 ```javascript
 function queryToJson(query){
   query = "" + query; // conver to string
-  var rg = /([^&=]+)\=([^&=]*)/gm;
+  var rg = /([^&=]+)(?:\=([^&=]*))?/gm;
   var mt, obj = {};
   while(mt = rg.exec(query)){
-    obj[mt[1]] = mt[2];
+    obj[mt[1]] = mt[2] || '';
   }
   return obj;
 }
